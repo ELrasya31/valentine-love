@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SELAMAT VALENTINE ISTRIKUU💕</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --pink: #ffb6c1;
+            --dark-pink: #ff6f91;
+            --green: #8bc34a;
+            --matcha: #c5e1a5;
+            --bg: #fff7fb;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            background: linear-gradient(135deg, var(--pink), var(--matcha));
+            color: #333;
+            min-height: 100vh;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, var(--pink), var(--matcha));
+            color: #fff;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 30px;
+            background: var(--dark-pink);
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: .3s;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, .15);
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        .love-box {
+            background: white;
+            border-radius: 25px;
+            padding: 30px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 120px;
+            border-radius: 15px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            font-size: 1rem;
+            resize: none;
+        }
+
+        .float-img {
+            position: absolute;
+            width: 160px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        @keyframes scrollUp {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-200%);
+            }
+        }
+
+        50% {
+            transform: translateY(-15px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, var(--pink), var(--green));
+            color: white;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+        }
+
+        .heart {
+            position: fixed;
+            top: -10px;
+            font-size: 20px;
+            animation: fall 6s linear infinite;
+            color: #ff6f91;
+            opacity: .7;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(110vh) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Happy Valentine Sayangkuu 💕</h1>
+        <p>Selamat valentine yang cintaku sayangkuu maniskuu istrikuuuu my imutt kuu🌸🍵</p>
+        <button class="btn" onclick="document.getElementById('content').scrollIntoView({behavior:'smooth'})">Buka Cerita
+            Kita</button>
+    </header>
+
+    <section id="content" style="min-height:100vh;display:flex;align-items:center;justify-content:center;">
+        <div class="love-box"
+            style="background:rgba(255,255,255,0.25);backdrop-filter:blur(15px);display:flex;align-items:center;justify-content:center;gap:60px;flex-wrap:wrap;max-width:1200px;">
+
+            <!-- Foto Random Kiri -->
+            <div style="flex:1;min-width:280px;position:relative;height:450px;">
+                <img src="https://imgur.com/qvxOLmS" class="float-img"
+                    style="top:30px;left:20px;transform:rotate(-8deg);">
+                <img src="https://imgur.com/QdGNfCc" class="float-img"
+                    style="top:160px;right:30px;transform:rotate(6deg);">
+                <img src="https://imgur.com/HV5WDga" class="float-img"
+                    style="bottom:40px;left:60px;transform:rotate(-4deg);">
+            </div>
+
+            <!-- Pesan Tengah -->
+            <div style="flex:1;min-width:300px;text-align:center;z-index:2;">
+                <button class="btn" onclick="document.getElementById('credits').scrollIntoView({behavior:'smooth'})">Hal
+                    Selanjutnya 💖</button>
+                <br><br>
+                <h2 style="color:var(--dark-pink);">Untuk Kamu 🤍</h2>
+                <p style="font-size:1.1rem;line-height:1.9;color:#333;">
+                    Hai cintaku 🤍<br><br>
+                    Aku buat web ini khusus untuk kamu, karena kamu adalah bagian paling indah dalam hidup aku.
+                    Terima kasih sudah selalu ada, selalu sabar, dan selalu jadi rumah paling nyaman buat aku pulang.
+                    Setiap senyum kamu itu dunia buat aku 🌸🍵
+                    <br><br>
+                    Happy Valentine Sayang 💕<br>
+                    Aku sayang kamu, lebih dari yang bisa aku tulis dengan kata-kata 🤍
+                </p>
+            </div>
+
+            <!-- Foto Random Kanan -->
+            <div style="flex:1;min-width:280px;position:relative;height:450px;">
+                <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" class="float-img"
+                    style="top:20px;right:40px;transform:rotate(7deg);">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="float-img"
+                    style="top:170px;left:20px;transform:rotate(-6deg);">
+                <img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913" class="float-img"
+                    style="bottom:30px;right:70px;transform:rotate(4deg);">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Hal Selanjutnya / Credits -->
+    <section id="credits"
+        style="height:100vh;overflow:hidden;position:relative;background:linear-gradient(135deg,var(--pink),var(--matcha));">
+        <div
+            style="position:absolute;top:100%;width:100%;display:flex;flex-direction:column;align-items:center;gap:30px;animation:scrollUp 30s linear infinite;">
+            <h2 style="color:white;">Our Memories 💕</h2>
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+                style="width:250px;border-radius:20px;box-shadow:0 15px 30px rgba(0,0,0,.3);" />
+            <img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913"
+                style="width:250px;border-radius:20px;box-shadow:0 15px 30px rgba(0,0,0,.3);" />
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+                style="width:250px;border-radius:20px;box-shadow:0 15px 30px rgba(0,0,0,.3);" />
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+                style="width:250px;border-radius:20px;box-shadow:0 15px 30px rgba(0,0,0,.3);" />
+            <img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913"
+                style="width:250px;border-radius:20px;box-shadow:0 15px 30px rgba(0,0,0,.3);" />
+            <h2 style="color:white;">I Love You Forever 🤍</h2>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Aku Sayang Kamu 🤍</h2>
+        <p>Web ini dibuat dengan cinta 💕</p>
+    </footer>
+
+    <script>
+        // Heart animation
+        setInterval(() => {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = '💖';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (3 + Math.random() * 3) + 's';
+            document.body.appendChild(heart);
+            setTimeout(() => heart.remove(), 6000);
+        }, 500);
+    </script>
+
+</body>
+
+</html>
